@@ -3,7 +3,7 @@ import numpy as np
 
 # Load and clean publication data
 def load_data():
-    df = pd.read_csv("data/publications.csv")
+    df = pd.read_csv("data/processed/publications.csv")
 
     df = df.rename(
         columns={

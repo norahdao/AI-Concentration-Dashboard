@@ -2,7 +2,7 @@ import streamlit as st
 import plotly.express as px
 import pandas as pd
 
-from utils.publications_utils import (
+from src.publications import (
     calculate_concentration_change,
     calculate_active_countries,
     calculate_global_publications,

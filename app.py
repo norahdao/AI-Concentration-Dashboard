@@ -73,13 +73,13 @@ with col1:
         "Publications",
         use_container_width=True
     ):
-        st.switch_page("pages/publications.py")
+        st.switch_page("pages/1_Publications.py")
 
     if st.button(
         "Patents",
         use_container_width=True
     ):
-        st.switch_page("pages/patents.py")
+        st.switch_page("pages/2_Patents.py")
 
 with col2:
 
@@ -87,10 +87,10 @@ with col2:
         "Investments",
         use_container_width=True
     ):
-        st.switch_page("pages/investments.py")
+        st.switch_page("pages/3_Investments.py")
 
     if st.button(
         "Concentration Analysis",
         use_container_width=True
     ):
-        st.switch_page("pages/concentration.py")
+        st.switch_page("pages/4_Concentration.py")
